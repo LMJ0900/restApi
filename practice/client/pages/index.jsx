@@ -1,7 +1,10 @@
+import MsgList from "../components/MsgList"
+
 export default function home(){
     return(
         <>
-        <h1>안녕하세요</h1>
+        <h1>SIMPLE SNS</h1>
+        <MsgList></MsgList>
         </>
     )
 }
